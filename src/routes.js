@@ -4,6 +4,7 @@ import Users from "./Pages/Users/Users";
 import Orders from "./Pages/Orders/Orders";
 import Comments from "./Pages/Comments/Comments";
 import UserProfile from "./Pages/UserProfile/UserProfile";
+import NotFound from "./Pages/NotFound/NotFound";
 
 
 const RoutesElem = [
@@ -14,6 +15,7 @@ const RoutesElem = [
     {path: '/users/:id', element: <UserProfile/>},
     {path: '/orders', element: <Orders/>},
     {path: '/comments', element: <Comments/>},
+    {path: '*', element: <NotFound/>},
 ]
 
 export default RoutesElem
