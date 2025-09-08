@@ -91,7 +91,8 @@ const AddProduct = ({ fetchAllProducts, getAllProduct }) => {
 
     return (
         <div className="w-full px-4 py-4 md:py-6 border-4 border-primaryColor rounded-xl bg-skyBlue">
-            <h3 className="inline-block text-white pr-2 pb-2 border-r-2 border-b-2 rounded-br-[18px] border-r-primaryColor border-b-primaryColor font-Modam-bold text-lg lg:text-xl">
+            <h3 className="inline-block text-primaryColor
+        pr-2 pb-2 border-r-2 border-b-2 rounded-br-[18px] border-r-primaryColor border-b-primaryColor font-Modam-bold text-lg lg:text-xl">
                 افزودن محصول جدید
             </h3>
 
